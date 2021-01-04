@@ -62,8 +62,6 @@ public class ForeUserController extends BaseController {
             return "redirect:/login";
         }
     }
-    //222
-
     //前台mall-用户更换头像
     @ResponseBody
     @RequestMapping(value = "user/uploadUserHeadImage",method = RequestMethod.POST,produces = "application/json;charset=utf-8")
