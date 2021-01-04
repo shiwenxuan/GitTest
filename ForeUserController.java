@@ -30,6 +30,7 @@ public class ForeUserController extends BaseController {
     private UserService userService;
     @Resource
     private AddressService addressService;
+	//jjjj
     //转到前台mall-用户详情页
     @RequestMapping(value = "userDetails",method = RequestMethod.GET)
     public String goToUserDetail(HttpSession session, Map<String,Object>map){
